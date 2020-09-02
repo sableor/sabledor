@@ -145,11 +145,37 @@ a {
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+#mainmenu {
+  cursor: pointer;
+}
+
+#mainmenu2 {
+  cursor: pointer;
+}
+
+.lightBox {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 10;
+  left: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#indication {
+  position: absolute;
+  font-size: 20px;
+  bottom: -82vh;
+  left: 38vw;
+}
 /************************** fin css du contenu *****************************/
 
 #footer {
   background-color: gray;
-  height: 70vh;
+  height: 80vh;
   padding-top: 1vh;
 }
 #info {
