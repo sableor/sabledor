@@ -37,7 +37,6 @@
   position: absolute;
   top: 3vh;
   left: 25vw;
-  width: 800px;
   height: 400px;
   z-index: 10;
 }
@@ -135,7 +134,7 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
-.images {
+.mainmenu {
   margin: 20px;
   width: 38vw;
   height: 48vh;
@@ -146,11 +145,7 @@ a {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#mainmenu {
-  cursor: pointer;
-}
-
-#mainmenu2 {
+.mainmenu {
   cursor: pointer;
 }
 
